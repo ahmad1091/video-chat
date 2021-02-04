@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ahmad1091/video-chat/issues"
   },
-  "homepage": "https://github.com/ahmad1091/video-chat#readme"
+  "homepage": "https://github.com/ahmad1091/video-chat#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1",
+    "uuid": "^8.3.2"
+  }
 }
