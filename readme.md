@@ -26,4 +26,4 @@ this project bulid as a starting point for vidoe chat app:
 
 ---
 
-![cats-on-zoom](https://i.pinimg.com/originals/9c/1f/36/9c1f3637aedf030b215688fb82fa5193.jpg)
+![cats-on-zoom](https://media.giphy.com/media/VdbCyYkA2ewswzrlzI/giphy.gif)
