@@ -14,6 +14,7 @@ this project bulid as a starting point for vidoe chat app:
 - socket.io
 - ejs
 - uuid
+- peerjs
 
 ---
 
