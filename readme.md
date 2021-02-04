@@ -16,6 +16,8 @@ this project bulid as a starting point for vidoe chat app:
 - uuid
 - peerjs
 
+## How to run :thinking:
+
 ---
 
 ![cats-on-zoom](https://i.pinimg.com/originals/9c/1f/36/9c1f3637aedf030b215688fb82fa5193.jpg)
