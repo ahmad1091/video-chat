@@ -4,7 +4,6 @@ const server = require("http").Server(app);
 const io = require("socket.io")(server);
 const { v4: uuidV4 } = require("uuid");
 
-const port = 3000;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
@@ -19,10 +18,12 @@ app.get("/:room", (req, res) => {
 io.on("connection", (socket) => {
   socket.on("join-room", (roomId, userId) => {
     socket.join(roomId);
-    socket.to(roomId).broadcast.emit("user-onnected", userId);
+    socket.to(roomId).broadcast.emit("user-connected", userId);
+
+    socket.on("disconnect", () => {
+      socket.to(roomId).broadcast.emit("user-disconnected", userId);
+    });
   });
 });
 
-server.listen(port, () => {
-  console.log("App is running on port " + port);
-});
+server.listen(3000);
